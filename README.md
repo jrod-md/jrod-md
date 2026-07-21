@@ -9,26 +9,6 @@ Software Development and Management student at the Universidad Tecnológica de P
 
 My background in operations and technical support taught me to care about the unglamorous parts of software: finding the mismatch, keeping a useful trail, and making the result useful to someone who did not write the system.
 
-## A few builds
-
-These are public projects I made inspectable. Most are prototypes or academic-scale work, so each description keeps its boundary visible.
-
-### [Azuero Kairós](https://github.com/jrod-md/AzueroKairos)
-
-A Python and React/Vite project that processes Sentinel-2 observations through the Copernicus Data Space Ecosystem and turns them into deterministic evidence states with a traceable record. It explores observation quality and evidence handling, not contamination detection or water-safety certification.
-
-### [Surcos](https://github.com/jrod-md/Surcos)
-
-A PHP and MySQL marketplace prototype for agricultural group buying in Panama. Producers publish lots, buyers join purchasing pools, and administrators can review participation. Payments are simulated and the project is local, not a deployed product.
-
-### [ArmaPortafolio](https://github.com/jrod-md/ArmaPortafolio)
-
-A browser-only tool that turns course evidence and cover-page data into a generated <code>Portada.pdf</code> and a structured ZIP package. It keeps file handling in the browser, with extension allowlists, size limits, and path sanitization.
-
-### [SIC-QualityVision](https://github.com/jrod-md/SIC-QualityVision)
-
-A Tkinter and MobileNetV2 computer-vision prototype that labels an image <code>DEFECT</code> or <code>OK</code> and can show a Grad-CAM explanation. It is educational work without a public dataset or aggregate evaluation, so the example scores are not presented as model performance.
-
 ## Current direction
 
 I am moving from local prototypes toward cloud engineering: learning how to package, deploy, monitor, and secure small services without losing the clarity that made them useful. I am also strengthening cybersecurity foundations, especially Blue Team and OSINT.
@@ -37,11 +17,11 @@ The honest version is simple: I am still learning how to take a useful demo thro
 
 ## Tools I reach for
 
-Python, SQL, JavaScript, React/Vite, PHP/PDO, MySQL, PostgreSQL, Git, and GitHub. I use them for data analysis, automation, browser tools, and small web applications.
+Python, Java, SQL, JavaScript, React/Vite, Astro, Cloudfare, PHP/PDO, MySQL, PostgreSQL, Git, GitHub. I use them for data analysis, automation, browser tools, and small web applications.
 
 ## Outside the repo
 
-Blue Team and OSINT, drones and IoT, chess, and building PCs.
+OSINT, IoT, automation, SaaS, chess, and building PCs.
 
 ## Contact
 
