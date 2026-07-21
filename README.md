@@ -1,97 +1,60 @@
 <pre>
-+-------------------------------------------------------------------------+
-| JROD FIELD CONSOLE                                                     |
-| node: panama        operator: jrod-md        horizon: UTP / 2027       |
-| mode: build / inspect / verify                                          |
-+-------------------------------------------------------------------------+
+JOSÉ RODRÍGUEZ / BUILD NOTES
+Software Development student · Panama · UTP 2027
+data pipelines · computer vision · web systems
 </pre>
 
 [LinkedIn](https://linkedin.com/in/jose-rodriguezzz) · [Ágora](https://agora-panama.com) · [Email](mailto:jrodjpg@gmail.com) · [GitHub](https://github.com/jrod-md)
 
-## `jrod-md@panama:~$ whoami`
+## About
 
-I am a Software Development student at Universidad Tecnológica de Panamá, graduating in 2027. I work at the boundary between messy signals and useful decisions: satellite pipelines, visual inspection tools, and browser-first systems for real businesses.
+I am a Software Development student at Universidad Tecnológica de Panamá, based in Panama and graduating in 2027. I build systems that make messy information easier to inspect: Copernicus and Sentinel-2 data pipelines, computer-vision tools, browser-first workflows, and mobile applications.
 
-My strongest pull is defensive: Blue Team thinking, OSINT, and the discipline of asking what the evidence actually supports. Drones, IoT, chess, and PC building sit on the same mental shelf, systems, signals, constraints, and the next move.
+My strongest technical interest is defensive security, especially Blue Team and OSINT. That interest shapes how I work: define what the evidence can support, make the workflow traceable, and state the limits when it cannot. Alongside university work, I freelance with Ágora, building web solutions for Panamanian businesses.
 
-## `jrod-md@panama:~$ ps -ef`
+## Working set
 
-```text
-PID  PROCESS               WHAT IT PRODUCES
-001  satellite-pipeline    Copernicus data -> Sentinel-2 evidence -> trust gate
-002  vision-inspection     MobileNetV2 -> DEFECT / OK -> Grad-CAM for review
-003  web-studio             Ágora -> browser-first tools for Panamanian businesses
-004  blue-team-lab          logs -> hypotheses -> defensive decisions
-```
+`Data` Python · Pandas · SQL · Copernicus API  
+`Vision` TensorFlow · Keras · MobileNetV2 · Grad-CAM  
+`Web` JavaScript · React · HTML · CSS  
+`Mobile` Flutter · Dart · Supabase
 
-## `jrod-md@panama:~$ printenv FOCUS`
+## Selected work
 
-```text
-DATA      Python / Pandas / SQL / Copernicus API
-VISION    TensorFlow / Keras / MobileNetV2 / Grad-CAM
-WEB       JavaScript / React / HTML / CSS
-MOBILE    Flutter / Dart / Supabase
-SECURITY  Blue Team / OSINT / system thinking
-```
+### [Azuero Kairós](https://github.com/jrod-md/AzueroKairos)
 
-## `jrod-md@panama:~$ find ./projects -type f -name "*.log"`
+**Result:** A public React/Vite demo turns Sentinel-2 observations into `USABLE`, `REVISAR`, or `NO INFERIR` decisions. The repository also includes a read-only Trust Layer with passports, ledger events, hashes, and a validation report.
 
-### `./projects/azuero-kairos.log`
+### [SIC-QualityVision](https://github.com/jrod-md/SIC-QualityVision)
 
-`purpose`: a Copernicus-based trust system for territorial evidence.
+**Result:** A Tkinter desktop app loads one RGB image, runs MobileNetV2 binary classification, shows per-image `DEFECT` or `OK` scores, and can request a Grad-CAM explanation.
 
-`result`: Sentinel-2 observations become `USABLE`, `REVISAR`, or `NO INFERIR` decisions. In the Río La Villa pilot, the public demo contrasts 2.26% and 71.06% valid coverage, showing why waiting can produce approximately 31.4x more usable evidence.
+**Boundary:** This is an educational prototype, not validated industrial production software. The repository does not claim training or evaluation metrics that are not included in the release.
 
-`repo`: [jrod-md/AzueroKairos](https://github.com/jrod-md/AzueroKairos)
+### [ArmaPortafolio](https://github.com/jrod-md/ArmaPortafolio)
 
-### `./projects/qualityvision.log`
+**Result:** A browser-only workflow generates `Portada.pdf` and a structured ZIP from academic evidence. It runs without an account, backend, database, or server-side upload.
 
-`purpose`: an educational computer-vision prototype for preliminary visual inspection.
+### [Kaisen DS6](https://github.com/jrod-md/Kaisen_DS6)
 
-`result`: one uploaded product image moves through MobileNetV2 classification, a `DEFECT` or `OK` result, per-image scores, and an optional Grad-CAM explanation. The repository documents the limits clearly: it is not validated industrial production software.
+**Result:** A Flutter Android app brings authentication, product catalog, stock-aware sale registration, barcode and QR scanning, sales history, and Supabase services into one academic handoff.
 
-`repo`: [jrod-md/SIC-QualityVision](https://github.com/jrod-md/SIC-QualityVision)
+## Current direction
 
-### `./projects/armaportafolio.log`
+I am deepening my Blue Team and OSINT practice while learning to make data and model outputs easier to audit. I am also keeping a clear distinction between a working demonstration and software that has been validated for production use.
 
-`purpose`: turn scattered academic evidence into a repeatable local handoff.
+## GitHub activity
 
-`result`: the browser collects course material, generates `Portada.pdf`, and packages a predictable ZIP without an account, backend, or server-side upload.
-
-`repo`: [jrod-md/ArmaPortafolio](https://github.com/jrod-md/ArmaPortafolio)
-
-### `./projects/kaisen-ds6.log`
-
-`purpose`: an Android inventory and sales workflow for a used-car marketplace project.
-
-`result`: authentication, catalog, stock-aware sale registration, barcode/QR scanning, sales history, and Supabase services meet in one academic handoff.
-
-`repo`: [jrod-md/Kaisen_DS6](https://github.com/jrod-md/Kaisen_DS6)
-
-## `jrod-md@panama:~$ tail -f /var/log/github-metrics`
-
-```text
-source  : GitHub Actions / lowlighter-metrics
-template: terminal
-refresh : daily at 06:00 UTC
-output  : local SVG committed to this repository
-```
+This panel is generated by GitHub Actions and committed as a local SVG, keeping the profile independent of an external image host.
 
 <!--START_SECTION:metrics-->
 <p align="center">
-  <img src="./github-metrics.svg" alt="GitHub activity in terminal mode" width="100%">
+  <img src="./github-metrics.svg" alt="GitHub activity metrics" width="100%">
 </p>
 <!--END_SECTION:metrics-->
 
-## `jrod-md@panama:~$ ./connect`
+## Contact
 
-`LinkedIn` -> https://linkedin.com/in/jose-rodriguezzz  
-`Ágora`    -> https://agora-panama.com  
-`Email`    -> jrodjpg@gmail.com
+For a project, a technical conversation, or a web build for a Panamanian business:
 
-<pre>
-/var/log/profile
-status: building systems that make evidence easier to inspect
-location: Panama
-</pre>
-
+[LinkedIn](https://linkedin.com/in/jose-rodriguezzz) · [Email](mailto:jrodjpg@gmail.com)
