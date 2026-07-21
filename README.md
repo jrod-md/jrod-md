@@ -1,51 +1,94 @@
 <pre>
-JOSÉ RODRÍGUEZ / BUILD NOTES
-Software Development student · Panama · UTP 2027
-data pipelines · computer vision · web systems
+JOSÉ RODRÍGUEZ / FIELD NOTES
+Panama City, Panama · UTP 2027
+data -> systems -> decisions
 </pre>
 
-[LinkedIn](https://linkedin.com/in/jose-rodriguezzz) · [Email](mailto:jrodjpg@gmail.com) · [GitHub](https://github.com/jrod-md)
+<p align="center">
+  <a href="https://linkedin.com/in/jose-rodriguezzz">LinkedIn</a> ·
+  <a href="https://agora-panama.com">Ágora</a> ·
+  <a href="mailto:jrodjpg@gmail.com">Email</a> ·
+  <a href="https://github.com/jrod-md">GitHub</a>
+</p>
 
 ## About
 
-I am a Software Development student at Universidad Tecnológica de Panamá, based in Panama and graduating in 2027. I build systems that make messy information easier to inspect: Copernicus and Sentinel-2 data pipelines, computer-vision tools, browser-first workflows, and mobile applications.
+I am a Software Development and Management student at Universidad Tecnológica de Panamá, graduating in 2027. I work where data, software, and operations meet: investigating records, connecting systems, automating repetitive work, and building tools that make a decision easier to inspect.
 
-My strongest technical interest is defensive security, especially Blue Team and OSINT. That interest shapes how I work: define what the evidence can support, make the workflow traceable, and state the limits when it cannot. Alongside university work, I freelance with Ágora, building web solutions for Panamanian businesses.
-
-## Working set
-
-`Data` Python · Pandas · SQL · Copernicus API  
-`Vision` TensorFlow · Keras · MobileNetV2 · Grad-CAM  
-`Web` JavaScript · React · HTML · CSS  
-`Mobile` Flutter · Dart · Supabase
+My professional background includes revenue-cycle operations, technical and billing support, and online sales and data operations. That experience made me care about the unglamorous parts of software: finding the mismatch, keeping a useful trail, and explaining the result to someone who did not write the system. I also freelance with Ágora, building web solutions for Panamanian businesses.
 
 ## Selected work
 
+The public projects below are real, bounded pieces of work. Each link goes to the repository and documentation behind the description.
+
 ### [Azuero Kairós](https://github.com/jrod-md/AzueroKairos)
 
-**Result:** A public React/Vite demo turns Sentinel-2 observations into `USABLE`, `REVISAR`, or `NO INFERIR` decisions. The repository also includes a read-only Trust Layer with passports, ledger events, hashes, and a validation report.
+<sub>CopernicusLAC 2026 · satellite evidence</sub>
 
-### [SIC-QualityVision](https://github.com/jrod-md/SIC-QualityVision)
+**Outcome:** A Python pipeline connects to the Copernicus Data Space Ecosystem through OAuth, processes Sentinel-2 observations, calculates MNDWI, NDTI, and data-quality indicators, and feeds deterministic evidence states into a public React/Vite interface and read-only Trust Layer.
 
-**Result:** A Tkinter desktop app loads one RGB image, runs MobileNetV2 binary classification, shows per-image `DEFECT` or `OK` scores, and can request a Grad-CAM explanation.
+**Limit:** It evaluates observation quality and traceability. It does not detect contamination, certify water safety, or replace field and laboratory validation.
 
-**Boundary:** This is an educational prototype, not validated industrial production software. The repository does not claim training or evaluation metrics that are not included in the release.
+### [Surcos](https://github.com/jrod-md/Surcos)
+
+<sub>PHP 8 · MySQL · agricultural group-buying prototype</sub>
+
+**Outcome:** A Panama-focused marketplace prototype connects buyer pool browsing, producer lot publication, admin review, simulated commitments, and REST/JSON endpoints in one local workflow.
+
+**Limit:** Payments are simulated, with no real card processing, email delivery, or production hosting.
 
 ### [ArmaPortafolio](https://github.com/jrod-md/ArmaPortafolio)
 
-**Result:** A browser-only workflow generates `Portada.pdf` and a structured ZIP from academic evidence. It runs without an account, backend, database, or server-side upload.
+<sub>browser-first workflow · academic evidence</sub>
+
+**Outcome:** A static browser tool turns course evidence and cover-page data into a generated `Portada.pdf` and a predictable ZIP package, with file limits, extension allowlists, and path sanitization.
+
+**Limit:** It has no account, backend, database, or server-side upload. The work stays in the browser.
+
+### [SIC-QualityVision](https://github.com/jrod-md/SIC-QualityVision)
+
+<sub>PyStock in my CV · MobileNetV2 · Grad-CAM</sub>
+
+**Outcome:** A Tkinter desktop workflow loads one RGB image, returns a `DEFECT` or `OK` prediction with per-image scores, and can request a Grad-CAM explanation.
+
+**Limit:** This is an educational prototype. The public repository does not include a dataset, reproducible training run, or aggregate evaluation, so its example scores are not presented as model performance.
 
 ### [Kaisen DS6](https://github.com/jrod-md/Kaisen_DS6)
 
-**Result:** A Flutter Android app brings authentication, product catalog, stock-aware sale registration, barcode and QR scanning, sales history, and Supabase services into one academic handoff.
+<sub>Flutter · Dart · Supabase · Android</sub>
 
-## Current direction
+**Outcome:** An academic mobile handoff brings authentication, product catalog, stock-aware sale registration, barcode and QR scanning, sales history, and Supabase-backed services into one app workflow.
 
-I am deepening my Blue Team and OSINT practice while learning to make data and model outputs easier to audit. I am also keeping a clear distinction between a working demonstration and software that has been validated for production use.
+## Experience behind the projects
+
+At Radius, I reviewed claims, payments, adjustments, account balances, pending cases, and customer records, then documented findings and escalations across Epic, EpicCare, and MyChart workflows. At Alorica, I supported technical, billing, activation, and account issues for U.S. customers in English, using enterprise systems and structured troubleshooting. Earlier, at Semperklin, I used MySQL to reconcile purchase orders, invoices, payments, inventory, and customer orders, and prepared recurring reports with Excel and Google Sheets.
+
+That background is the thread connecting my projects: I like turning scattered information into a workflow that another person can actually use.
+
+## Private work
+
+Some of my data-integration work is private, so I describe it without linking implementation details. It has involved ETL imports, Python processing, PostgreSQL and Supabase, SQL views, duplicate and required-field checks, confidence levels, Git branches, pull requests, and functional testing. I keep the code private, but the engineering habits carry into the public projects above.
+
+## Current learning
+
+I am strengthening my data-engineering foundations, especially ETL design, pipeline quality, and the next layer of tooling around Apache Spark, Databricks, and CI/CD. In parallel, I am building cybersecurity foundations through Cisco's Introduction to Cybersecurity training and continued Blue Team and OSINT practice.
+
+The honest version is simple: most of my work is prototype or academic-scale. My next step is better testing, evaluation, deployment, and observability, not pretending that a working demo is already production software.
+
+## Toolbox
+
+**Data and automation:** Python, Pandas, NumPy, SQL, MySQL, PostgreSQL, Supabase, Excel, Google Sheets  
+**Integrations:** REST/JSON, OAuth, API validation, troubleshooting, Git, GitHub  
+**Product work:** JavaScript, React, Vite, HTML, CSS, PHP/PDO, Flutter, Dart, Streamlit  
+**Machine learning:** image classification, MobileNetV2, Grad-CAM, model-output interpretation
+
+## Training and languages
+
+Samsung Innovation Campus, Python and Artificial Intelligence, issued January 2026  
+Cisco, Introduction to Cybersecurity, issued January 2026  
+Spanish native · English C1
 
 ## GitHub activity
-
-This panel is generated by GitHub Actions and committed as a local SVG, keeping the profile independent of an external image host.
 
 <!--START_SECTION:metrics-->
 <p align="center">
@@ -55,6 +98,10 @@ This panel is generated by GitHub Actions and committed as a local SVG, keeping 
 
 ## Contact
 
-For a project, a technical conversation, or a web build for a Panamanian business:
+I am open to conversations about data analysis, technical integrations, automation, and software projects where careful implementation matters.
 
-[LinkedIn](https://linkedin.com/in/jose-rodriguezzz) · [Email](mailto:jrodjpg@gmail.com)
+<p>
+  <a href="https://linkedin.com/in/jose-rodriguezzz">LinkedIn</a> ·
+  <a href="mailto:jrodjpg@gmail.com">jrodjpg@gmail.com</a>
+</p>
+
