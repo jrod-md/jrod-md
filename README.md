@@ -4,7 +4,7 @@ Software Development student · Panama · UTP 2027
 data pipelines · computer vision · web systems
 </pre>
 
-[LinkedIn](https://linkedin.com/in/jose-rodriguezzz) · [Ágora](https://agora-panama.com) · [Email](mailto:jrodjpg@gmail.com) · [GitHub](https://github.com/jrod-md)
+[LinkedIn](https://linkedin.com/in/jose-rodriguezzz) · [Email](mailto:jrodjpg@gmail.com) · [GitHub](https://github.com/jrod-md)
 
 ## About
 
