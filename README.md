@@ -6,7 +6,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jose--rodriguezzz-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/jose-rodriguezzz)
 [![Email](https://img.shields.io/badge/Email-jrodjpg%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jrodjpg@gmail.com)
-[![Ágora](https://img.shields.io/badge/Studio-Ágora-000000?style=flat&logo=vercel&logoColor=white)](https://agora-panama.com)
 
 </div>
 
