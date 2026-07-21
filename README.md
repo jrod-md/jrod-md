@@ -1,90 +1,97 @@
-<div align="center">
+<pre>
++-------------------------------------------------------------------------+
+| JROD FIELD CONSOLE                                                     |
+| node: panama        operator: jrod-md        horizon: UTP / 2027       |
+| mode: build / inspect / verify                                          |
++-------------------------------------------------------------------------+
+</pre>
 
-# Hey, I'm José 👋
+[LinkedIn](https://linkedin.com/in/jose-rodriguezzz) · [Ágora](https://agora-panama.com) · [Email](mailto:jrodjpg@gmail.com) · [GitHub](https://github.com/jrod-md)
 
-**Software Development student (UTP, Panama) — Python · Data · ML · Cloud-curious**
+## `jrod-md@panama:~$ whoami`
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jose--rodriguezzz-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/jose-rodriguezzz)
-[![Email](https://img.shields.io/badge/Email-jrodjpg%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jrodjpg@gmail.com)
+I am a Software Development student at Universidad Tecnológica de Panamá, graduating in 2027. I work at the boundary between messy signals and useful decisions: satellite pipelines, visual inspection tools, and browser-first systems for real businesses.
 
-</div>
+My strongest pull is defensive: Blue Team thinking, OSINT, and the discipline of asking what the evidence actually supports. Drones, IoT, chess, and PC building sit on the same mental shelf, systems, signals, constraints, and the next move.
 
----
+## `jrod-md@panama:~$ ps -ef`
 
-### About
+```text
+PID  PROCESS               WHAT IT PRODUCES
+001  satellite-pipeline    Copernicus data -> Sentinel-2 evidence -> trust gate
+002  vision-inspection     MobileNetV2 -> DEFECT / OK -> Grad-CAM for review
+003  web-studio             Ágora -> browser-first tools for Panamanian businesses
+004  blue-team-lab          logs -> hypotheses -> defensive decisions
+```
 
-I'm a Software Development & Management student at Universidad Tecnológica de Panamá (grad. 2027), building things at the intersection of **data, satellite imagery, and computer vision**. Freelance web development through my studio **Ágora**, focused on small Panamanian businesses. Currently exploring Blue Team / OSINT and cloud security on the side.
+## `jrod-md@panama:~$ printenv FOCUS`
 
-- 🔭 Currently building: mobile app for used-car scam verification (DS6 semester project)
-- 🛰️ Interested in: geospatial data, satellite monitoring pipelines, drones/IoT
-- 🌱 Learning: Mandarin (HSK1), cloud security fundamentals
-- ⚡ Fun fact: also into chess, sneakers, and building PCs
+```text
+DATA      Python / Pandas / SQL / Copernicus API
+VISION    TensorFlow / Keras / MobileNetV2 / Grad-CAM
+WEB       JavaScript / React / HTML / CSS
+MOBILE    Flutter / Dart / Supabase
+SECURITY  Blue Team / OSINT / system thinking
+```
 
----
+## `jrod-md@panama:~$ find ./projects -type f -name "*.log"`
 
-### Tech Stack
+### `./projects/azuero-kairos.log`
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+`purpose`: a Copernicus-based trust system for territorial evidence.
 
----
+`result`: Sentinel-2 observations become `USABLE`, `REVISAR`, or `NO INFERIR` decisions. In the Río La Villa pilot, the public demo contrasts 2.26% and 71.06% valid coverage, showing why waiting can produce approximately 31.4x more usable evidence.
 
-### Featured Projects
+`repo`: [jrod-md/AzueroKairos](https://github.com/jrod-md/AzueroKairos)
 
-<table>
-<tr>
-<td width="50%">
+### `./projects/qualityvision.log`
 
-**[Azuero Kairós](https://github.com/jrod-md/AzueroKairos)**
-Satellite evidence-monitoring pipeline. Integrates the Copernicus Data Space Ecosystem API to process Sentinel-2 bands, calculate MNDWI/NDTI, and apply confidence rules with Sentinel-1 SAR context.
-`Python` `Streamlit` `React`
+`purpose`: an educational computer-vision prototype for preliminary visual inspection.
 
-</td>
-<td width="50%">
+`result`: one uploaded product image moves through MobileNetV2 classification, a `DEFECT` or `OK` result, per-image scores, and an optional Grad-CAM explanation. The repository documents the limits clearly: it is not validated industrial production software.
 
-**[SIC-QualityVision](https://github.com/jrod-md/SIC-QualityVision)**
-Computer vision system for industrial defect detection using MobileNetV2, with Grad-CAM visualizations for model interpretability.
-`Python` `TensorFlow` `CV`
+`repo`: [jrod-md/SIC-QualityVision](https://github.com/jrod-md/SIC-QualityVision)
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+### `./projects/armaportafolio.log`
 
-**[ArmaPortafolio](https://github.com/jrod-md/ArmaPortafolio)**
-Web app that organizes academic evidence and auto-generates structured, downloadable digital portfolios.
-`JavaScript` `HTML/CSS`
+`purpose`: turn scattered academic evidence into a repeatable local handoff.
 
-</td>
-<td width="50%">
+`result`: the browser collects course material, generates `Portada.pdf`, and packages a predictable ZIP without an account, backend, or server-side upload.
 
-**[Kaisen_DS6](https://github.com/jrod-md/Kaisen_DS6)**
-Mobile app project — scam verification tool for Panama's used-car marketplace, with full CRUD backend and an AI-assisted logbook.
-`Dart` `Flutter`
+`repo`: [jrod-md/ArmaPortafolio](https://github.com/jrod-md/ArmaPortafolio)
 
-</td>
-</tr>
-</table>
+### `./projects/kaisen-ds6.log`
 
----
+`purpose`: an Android inventory and sales workflow for a used-car marketplace project.
 
-### GitHub Metrics
+`result`: authentication, catalog, stock-aware sale registration, barcode/QR scanning, sales history, and Supabase services meet in one academic handoff.
+
+`repo`: [jrod-md/Kaisen_DS6](https://github.com/jrod-md/Kaisen_DS6)
+
+## `jrod-md@panama:~$ tail -f /var/log/github-metrics`
+
+```text
+source  : GitHub Actions / lowlighter-metrics
+template: terminal
+refresh : daily at 06:00 UTC
+output  : local SVG committed to this repository
+```
 
 <!--START_SECTION:metrics-->
 <p align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%">
+  <img src="./github-metrics.svg" alt="GitHub activity in terminal mode" width="100%">
 </p>
 <!--END_SECTION:metrics-->
 
----
+## `jrod-md@panama:~$ ./connect`
 
-<div align="center">
-<sub>Building in Panama City 🇵🇦 — always open to freelance/collab conversations</sub>
-</div>
+`LinkedIn` -> https://linkedin.com/in/jose-rodriguezzz  
+`Ágora`    -> https://agora-panama.com  
+`Email`    -> jrodjpg@gmail.com
+
+<pre>
+/var/log/profile
+status: building systems that make evidence easier to inspect
+location: Panama
+</pre>
 
