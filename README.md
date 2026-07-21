@@ -1,7 +1,4 @@
 <div align="center">
-<pre>
-
-</pre>
 </div>
 
 <p align="center"><strong>data · automation · software</strong></p>
