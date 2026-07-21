@@ -1,106 +1,118 @@
+<div align="center">
 <pre>
-JOSÉ RODRÍGUEZ / FIELD NOTES
-Panama City, Panama · UTP 2027
-data -> systems -> decisions
+--------------------------------------------------------------------------------------------::---:::
+-------------------------------------------------------------------------------------------:::::::::
+--------------------------------------------------------------------------------------------::--::::
+-----------------------------------------------------------------------------------------:------::::
+--------------------------------------------------------------------------------------------:-:-::::
+--------------------------------------------------------------------------------------------::::::::
+------------------------------------------------------------------------------------------:-::::-:::
+-------------------------------------------------------------------------------------------:::::::--
+----------------------------------------------=**++##=-----------------------------------:--------::
+----------------------------------------------#%%#==+=-----------------------------------:----::::--
+-------------------------=----------------------=----------------------------------:-------::::::---
+------------------------------------------------=----##------------------------------------:---::---
+-----------------------------------------------==---*#*=------------=**------------------:-:::--:---
+-----------------------------------------------+-----**-----------*###%#----------------::--::---:::
+------------------------------------------------------------------*%%#*#*-----------------:-::::::::
+----------------------------------------------+--------------------=++-#+-----------:--::--------:--
+---------------------------------------------------=---=-----------=+#%*=----------::---::----------
+----------------------------------------=----+--------=-----------=-*%%#-----------:::--::----------
+-----------------------------------------+--=-------=+-----------+----+=-----------:::::---::------:
+------------------------------------------=-=-------=-----------=----:--------------:-:--:----------
+-------------------------------++---------+-=--------+--------=------------------------:------------
+-----------------------------------++==----*---------==------=------------------------::::----------
+----------------------------------------+*+==-----===#-----=-----:-:----------------------:---------
+---------------------:----------------------*=-------=---=------------------------------------------
+-----------------:---------------------------=+-=----+-+-----------:----------------------::----:---
+-----------------------------------------------+#=---*----------------------------------------------
+--------------------------------------------------+#+-----------------------------------------------
+----------------------------------------------------#-----------------------------------------------
+----------------------------------------------------#-----------------------------------------------
+----------------------------------------------------=+----------------------------------------------
+-----------------------------------------------------#=---------------------------------------------
+------------------------------------------------------*--------=------------------------------------
+----------------------------:-------------------------**-----+#*------------------------------------
+--------------------------------------------------------**=+#%=-------------------------------------
+----------------------:--:::------------------------------%%+---------------------------------------
+--------------------------:------------------------------*%=-----:----------------------------------
+--------------------------------------------------------*%------------------------------------------
+----------------------------------------------------:-=*+-------:-----------------------------------
+-----------------------:-----------------------------+#-:-------------------------------------------
+--------------------------------:----------------::=*#-:----------------------:--:-----:------------
+-------------:::-:--------------------------:-----+#=------------------------::--::::::--::-:------:
+------------:-:--:-----------------------:------+##---------------------------:::-:::-::------------
+------------:------------------:::-----------=+*%=---------------:----------:::-::::-::------:----::
+-------:--:---:------------------:--------*%%*#*---------------------------:-:-:::::::::---::----:::
+------::---:::-:::--::-------------:-----%@%%%%=-----------:----------------::::-:::-:-::-:::-::::--
+----::::::-::-:-----:----------:----------%@%###*++=----::::----:-::----:--:::-----:--:--::::::::-::
+---::--::::--------------------------+*##%%%%%%#*++=----=-::-::-:------:::::::-::::::-::-::::::--:--
+------------------------------------*%##*##%%##***===-+#*-:::-::-::::::::--:::---:::--:--::::------:
+--------------------------------::-:+%%###***####+*+=--==:::::::::::-----:::::--::---:-::::::-------
+--------------------------:::------:+%%%#++*#%%%%**++====-::::::::::-:--:::::-:::---::--:-::--------
+----------------------------:-:-----+%%%#+*##%%%%#++*--++-:::::::::::-:-::::------:--::::::::-------
+--------------------------:---------*%%%##*##%%%%%*+#-++#=:::---:::::-:-:-::--:::---------::--------
+------------------------:::--::----=#%%%####%#%%%%*++#++%#------:-:-----::::-::------:--:::---------
+------------------------::--:::----*%%%###*#%%%%%%*+++**%%*=----------------------------:--:--------
+--------------------------:------=*%%%%%####%%@%####*=**%#+**==---------------------------:---------
+------------------------------===*%%%%%%%%%%%%@%##%**+#%%##+-*%#+====----------------:---:-:---:----
+------------------------=====+*#%%%#%%%#%%%%%%@%###%###%%%%#*==+*#+++++=====---------------:--------
+------------------=-====++**#%%%%####%%%%%%@%%%%%%%%%##%@@%@##**=-=****+++++=====-------------------
+:---:--------=====++++++*#%%@%%%%%%%%%%%%%%%%%@%%%#%%%**#%%%%%%%%%%#**#**+*+++====-----------:------
+--:--:------====+++**+***##%%@%%%%%%%%%%%%%%%%%%##%%%%%%#+######**#**#*#***+++======--------::------
+----------====++++******###%%#%#%%#%%##%%##%#%%%##%%%%%%@%#+**#**#++**+**++++++======---------------
+----------====+++****#*****###*#**#####%##%%#%%%%%%#%%%%%%@@%**#***+*+++*++++=====--------:---------
+----------===+++***********#***#******####%%%%%%%##%%######%%%#*+*+++++*+++====-=-----------:::----:
+----------======+++++++*******+*****+*+***#*##%#####*##***++*++++++======------=---------------:-:::
+----------=========+=+=++++++++++++++++**+*+++*++*+*+*++++++===+====-=----------------------:--::--:
+-------------------=================+++++++++==++==++=========-----------------------------:-:------
+----------------------=-------===================-----------------------------:------------:--------
+:----------------------------------==---------------------------:-------:-:::---:--------------:----
 </pre>
+</div>
 
-<p align="center">
-  <a href="https://linkedin.com/in/jose-rodriguezzz">LinkedIn</a> ·
-  <a href="mailto:jrodjpg@gmail.com">Email</a> ·
-  <a href="https://github.com/jrod-md">GitHub</a>
-</p>
+<p align="center"><strong>data · automation · software</strong></p>
 
-## About
+# José Rodríguez
 
-I am a Software Development and Management student at Universidad Tecnológica de Panamá, graduating in 2027. I work where data, software, and operations meet: investigating records, connecting systems, automating repetitive work, and building tools that make a decision easier to inspect.
+Software Development and Management student at the Universidad Tecnológica de Panamá, graduating in 2027. I build practical software around data and automation, with a bias toward tools that are easy to inspect, test, and explain.
 
-My professional background includes revenue-cycle operations, technical and billing support, and online sales and data operations. That experience made me care about the unglamorous parts of software: finding the mismatch, keeping a useful trail, and explaining the result to someone who did not write the system. I also freelance with Ágora, building web solutions for Panamanian businesses.
+My background in operations and technical support taught me to care about the unglamorous parts of software: finding the mismatch, keeping a useful trail, and making the result useful to someone who did not write the system.
 
-## Selected work
+## A few builds
 
-The public projects below are real, bounded pieces of work. Each link goes to the repository and documentation behind the description.
+These are public projects I made inspectable. Most are prototypes or academic-scale work, so each description keeps its boundary visible.
 
 ### [Azuero Kairós](https://github.com/jrod-md/AzueroKairos)
 
-<sub>CopernicusLAC 2026 · satellite evidence</sub>
-
-**Outcome:** A Python pipeline connects to the Copernicus Data Space Ecosystem through OAuth, processes Sentinel-2 observations, calculates MNDWI, NDTI, and data-quality indicators, and feeds deterministic evidence states into a public React/Vite interface and read-only Trust Layer.
-
-**Limit:** It evaluates observation quality and traceability. It does not detect contamination, certify water safety, or replace field and laboratory validation.
+A Python and React/Vite project that processes Sentinel-2 observations through the Copernicus Data Space Ecosystem and turns them into deterministic evidence states with a traceable record. It explores observation quality and evidence handling, not contamination detection or water-safety certification.
 
 ### [Surcos](https://github.com/jrod-md/Surcos)
 
-<sub>PHP 8 · MySQL · agricultural group-buying prototype</sub>
-
-**Outcome:** A Panama-focused marketplace prototype connects buyer pool browsing, producer lot publication, admin review, simulated commitments, and REST/JSON endpoints in one local workflow.
-
-**Limit:** Payments are simulated, with no real card processing, email delivery, or production hosting.
+A PHP and MySQL marketplace prototype for agricultural group buying in Panama. Producers publish lots, buyers join purchasing pools, and administrators can review participation. Payments are simulated and the project is local, not a deployed product.
 
 ### [ArmaPortafolio](https://github.com/jrod-md/ArmaPortafolio)
 
-<sub>browser-first workflow · academic evidence</sub>
-
-**Outcome:** A static browser tool turns course evidence and cover-page data into a generated `Portada.pdf` and a predictable ZIP package, with file limits, extension allowlists, and path sanitization.
-
-**Limit:** It has no account, backend, database, or server-side upload. The work stays in the browser.
+A browser-only tool that turns course evidence and cover-page data into a generated <code>Portada.pdf</code> and a structured ZIP package. It keeps file handling in the browser, with extension allowlists, size limits, and path sanitization.
 
 ### [SIC-QualityVision](https://github.com/jrod-md/SIC-QualityVision)
 
-<sub>PyStock in my CV · MobileNetV2 · Grad-CAM</sub>
+A Tkinter and MobileNetV2 computer-vision prototype that labels an image <code>DEFECT</code> or <code>OK</code> and can show a Grad-CAM explanation. It is educational work without a public dataset or aggregate evaluation, so the example scores are not presented as model performance.
 
-**Outcome:** A Tkinter desktop workflow loads one RGB image, returns a `DEFECT` or `OK` prediction with per-image scores, and can request a Grad-CAM explanation.
+## Current direction
 
-**Limit:** This is an educational prototype. The public repository does not include a dataset, reproducible training run, or aggregate evaluation, so its example scores are not presented as model performance.
+I am moving from local prototypes toward cloud engineering: learning how to package, deploy, monitor, and secure small services without losing the clarity that made them useful. I am also strengthening cybersecurity foundations, especially Blue Team and OSINT.
 
-### [Kaisen DS6](https://github.com/jrod-md/Kaisen_DS6)
+The honest version is simple: I am still learning how to take a useful demo through stronger testing and real deployment evidence. That is the part I am working on now.
 
-<sub>Flutter · Dart · Supabase · Android</sub>
+## Tools I reach for
 
-**Outcome:** An academic mobile handoff brings authentication, product catalog, stock-aware sale registration, barcode and QR scanning, sales history, and Supabase-backed services into one app workflow.
+Python, SQL, JavaScript, React/Vite, PHP/PDO, MySQL, PostgreSQL, Git, and GitHub. I use them for data analysis, automation, browser tools, and small web applications.
 
-## Experience behind the projects
+## Outside the repo
 
-At Radius, I reviewed claims, payments, adjustments, account balances, pending cases, and customer records, then documented findings and escalations across Epic, EpicCare, and MyChart workflows. At Alorica, I supported technical, billing, activation, and account issues for U.S. customers in English, using enterprise systems and structured troubleshooting. Earlier, at Semperklin, I used MySQL to reconcile purchase orders, invoices, payments, inventory, and customer orders, and prepared recurring reports with Excel and Google Sheets.
-
-That background is the thread connecting my projects: I like turning scattered information into a workflow that another person can actually use.
-
-## Private work
-
-Some of my data-integration work is private, so I describe it without linking implementation details. It has involved ETL imports, Python processing, PostgreSQL and Supabase, SQL views, duplicate and required-field checks, confidence levels, Git branches, pull requests, and functional testing. I keep the code private, but the engineering habits carry into the public projects above.
-
-## Current learning
-
-I am strengthening my data-engineering foundations, especially ETL design, pipeline quality, and the next layer of tooling around Apache Spark, Databricks, and CI/CD. In parallel, I am building cybersecurity foundations through Cisco's Introduction to Cybersecurity training and continued Blue Team and OSINT practice.
-
-The honest version is simple: most of my work is prototype or academic-scale. My next step is better testing, evaluation, deployment, and observability, not pretending that a working demo is already production software.
-
-## Toolbox
-
-**Data and automation:** Python, Pandas, NumPy, SQL, MySQL, PostgreSQL, Supabase, Excel, Google Sheets  
-**Integrations:** REST/JSON, OAuth, API validation, troubleshooting, Git, GitHub  
-**Product work:** JavaScript, React, Vite, HTML, CSS, PHP/PDO, Flutter, Dart, Streamlit  
-**Machine learning:** image classification, MobileNetV2, Grad-CAM, model-output interpretation
-
-## Training and languages
-
-Samsung Innovation Campus, Python and Artificial Intelligence, issued January 2026  
-Cisco, Introduction to Cybersecurity, issued January 2026  
-Spanish native · English C1
-
-## GitHub activity
-
-<!--START_SECTION:metrics-->
-<p align="center">
-  <img src="./github-metrics.svg" alt="GitHub activity metrics" width="100%">
-</p>
-<!--END_SECTION:metrics-->
+Blue Team and OSINT, drones and IoT, chess, and building PCs.
 
 ## Contact
 
-I am open to conversations about data analysis, technical integrations, automation, and software projects where careful implementation matters.
-
-<p>
-  <a href="https://linkedin.com/in/jose-rodriguezzz">LinkedIn</a> ·
-  <a href="mailto:jrodjpg@gmail.com">jrodjpg@gmail.com</a>
-</p>
-
+<a href="https://linkedin.com/in/jose-rodriguezzz">LinkedIn</a> · <a href="mailto:jrodjpg@gmail.com">jrodjpg@gmail.com</a>
