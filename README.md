@@ -6,7 +6,6 @@ data -> systems -> decisions
 
 <p align="center">
   <a href="https://linkedin.com/in/jose-rodriguezzz">LinkedIn</a> ·
-  <a href="https://agora-panama.com">Ágora</a> ·
   <a href="mailto:jrodjpg@gmail.com">Email</a> ·
   <a href="https://github.com/jrod-md">GitHub</a>
 </p>
